@@ -1,0 +1,95 @@
+.shorts{
+    margin-top: 30px;
+    
+    height: 350px;
+    border-width: 2px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: rgba(128, 128, 128, 0.345);
+    margin-left: 22px;
+    padding-top: 5px;
+    
+}
+.shortsHeader{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.shortsLogo{
+display: flex;
+
+}
+.shortsImage{
+    height: 18px;
+    margin-right: 9px;
+
+}
+.cancelButton{
+    display: block;
+}
+.stortsName{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: roboto,Arial;
+}
+.shortsVideosGrid{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.shortsThumbnails{
+    display: flex;
+    flex: 1;
+    height: 270px;
+    
+    margin-left: 10px;
+    border-radius: 13px;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+.shortsImageSection{
+    height: 210px;
+    
+    flex: 1;
+}
+.shortsImage1{
+    /* width: 160px; */
+    width: 134px;
+    height: 210px;
+    border-radius: 0px 0px 20px 13px
+}
+.shortsContentsection{
+    position: relative;
+  
+    flex: 1;
+    height: 70px;
+}
+.shortsTitle{
+    font-size: 12px;
+    margin-top: 8px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+.shortsStats{
+    font-size: 10px;
+    color: rgb(116, 113, 113);
+    margin-top: 3px;
+}
+.shortsFooter{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 26px;
+}
+.shortsFooter:hover{
+    background-color: rgb(218, 218, 218);
+}

@@ -1,0 +1,184 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 46px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+
+  z-index: 100;
+}
+
+.hamburgerIconImg {
+  width: 20px;
+  margin-left: 13px;
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.youtubueLogo {
+  width: 63px;
+  margin-left: 7px;
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.centerSide {
+  display: flex;
+  flex: 1;
+  max-width: 452px;
+}
+
+.searchBox {
+  display: flex;
+  flex: 1;
+  border-style: solid;
+  border-color: rgba(134, 123, 123, 0.231);
+  border-radius: 30px;
+  border-width: 1px;
+
+  font-size: 11px;
+  height: 24px;
+  padding-left: 10px;
+  vertical-align: middle;
+  margin-top: 6px;
+  outline: none;
+  max-width: 396px;
+  margin-left: 3px;
+  width: 0;
+}
+
+.searchButton {
+  height: 26px;
+  width: 40px;
+  background-color: rgba (240, 240, 240, 1);
+  border: none;
+  margin-top: 7px;
+  margin-left: -40px;
+  border-radius: 0 12px 12px 0;
+}
+
+.searchimg {
+  width: 19px;
+  height: 25px;
+}
+
+.voiceChatButton {
+  height: 30px;
+  width: 30px;
+  margin-top: 6px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 14px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.voiceIcon {
+  width: 12px;
+  padding-top: 3px;
+}
+
+.voiceChatButton:hover {
+  background-color: rgb(225, 222, 222);
+}
+
+.rightSide {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  width: 89px;
+  vertical-align: bottom;
+  flex-shrink: 0;
+}
+
+.createIconImage {
+  height: 17px;
+  background-color: white;
+}
+
+.createIconImage:hover {
+  background-color: #e8e8e8;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 16px;
+}
+
+.notificationBar {
+  position: relative;
+}
+
+.notificationCount {
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: rgba (204, 0, 0, 1);
+  background-color: rgba(210, 13, 52, 0.977);
+  color: white;
+  width: 8px;
+  height: 10px;
+  border-radius: 9px;
+  padding-left: 4px;
+  padding-bottom: 2px;
+
+  font-size: 11px;
+}
+
+.youtubeProfileImage {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.youtubeProfileImage:hover {
+  background-color: #d8d4d4;
+  padding-right: 3px;
+  padding-left: 3px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  border-radius: 14px;
+}
+
+.headerPart2 {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+  position: fixed;
+  height: 25px;
+  background-color: white;
+  z-index: 100;
+  left: 49px;
+  right: 0;
+  align-items: center;
+  font-size: 10px;
+  font-family: 'Roboto';
+  margin-top: -25px;
+}
+
+.headerPart2::-webkit-scrollbar {
+  display: none;
+}
+
+.headerRecoment {
+  display: flex;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border: none;
+  margin-right: 8px;
+  border-radius: 7px;
+  background-color: rgb(244, 241, 241);
+}
+
+#AllButton {
+  background-color: black;
+  color: white;
+  margin-left: 18px;
+}
